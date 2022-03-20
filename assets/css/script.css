@@ -54,3 +54,42 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
+
+:root {
+  --bs-primary: #22B573;
+  --bs-primary-rgb: 34, 181, 115;
+  --bs-secondary: #6c757d;
+  --bs-secondary-rgb:108, 117, 125;
+  --link-font-family:"Poppins", sans-serif;
+  --heading-font-familly: "Open Sans", sans-serif;
+  --body-font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--body-font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font-familly);
+}
+
+a, input[type=button], button {
+  font-family: var(--link-font-family);
+}
+
+.search-from-select {
+  font-size: 22px;
+  padding: 15px 17px 17px 20px;
+  font-weight: 400;
+}
+
+.btn-car-listing {
+  font-size: 24px;
+  padding: 12px 17px 17px 20px;
+  font-weight: 400;
+}
+
+.btn-car-listing img {
+  width: 22.52px;
+  margin-right: 10px;
+}
