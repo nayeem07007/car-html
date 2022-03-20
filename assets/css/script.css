@@ -67,14 +67,38 @@
 
 body {
   font-family: var(--body-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font-familly);
 }
 
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 87.16px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+}
+
 a, input[type=button], button {
   font-family: var(--link-font-family);
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+.search-form {
+  margin-bottom: 30px;
 }
 
 .search-from-select {
@@ -92,4 +116,37 @@ a, input[type=button], button {
 .btn-car-listing img {
   width: 22.52px;
   margin-right: 10px;
+}
+
+.banner-content {
+  padding-top: 10px;
+}
+
+.btn-car-list-banner {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+  padding: 8px 27px 10px 26px;
+  background-color: var(--bs-primary);
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+.wrapper-listing h3 span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17.7px;
+  padding: 2px 12px;
+  background-color: #F1604F;
+  border-radius: 17px;
+  display: inline-block;
+  transform: translateY(-3PX);
+}
+
+.list-car-wrapper .car-image {
+  width: 40%;
+}
+.list-car-wrapper .list-car-side-wrapper {
+  width: 60%;
 }
