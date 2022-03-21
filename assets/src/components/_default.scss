@@ -25,6 +25,9 @@ h4{
 a, input[type="button"], button {
     font-family: var( --link-font-family);
 }
+.background-gry{
+    background-color: var( --bs-ash-background);
+}
 @include media-breakpoint-down(sm) { 
     h1{
         font-size: 30px;

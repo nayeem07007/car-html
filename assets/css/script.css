@@ -60,46 +60,11 @@
   --bs-primary-rgb: 34, 181, 115;
   --bs-secondary: #6c757d;
   --bs-secondary-rgb:108, 117, 125;
+  --bs-ash-background:#E5E5E5;
   --link-font-family:"Poppins", sans-serif;
   --heading-font-familly: "Open Sans", sans-serif;
   --body-font-family: "Inter", sans-serif;
   --footer-font-family: "Raleway", sans-serif;
-}
-
-footer {
-  background-color: var(--bs-primary);
-  padding: 42px 0 163px;
-  font-family: var(--footer-font-family);
-}
-
-.list-heading {
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-
-.footer-list li {
-  list-style: none;
-  margin-bottom: 5px;
-}
-.footer-list li a {
-  color: var(--bs-white);
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-@media (max-width: 991.98px) {
-  .h-hight {
-    margin-top: 50px;
-  }
-}
-@media (max-width: 575.98px) {
-  .footer-list li a {
-    font-size: 14px;
-    font-weight: 300;
-  }
-}
 }
 
 body {
@@ -133,6 +98,10 @@ h4 {
 
 a, input[type=button], button {
   font-family: var(--link-font-family);
+}
+
+.background-gry {
+  background-color: var(--bs-ash-background);
 }
 
 @media (max-width: 575.98px) {
@@ -196,4 +165,18 @@ a, input[type=button], button {
 .list-car-wrapper .list-car-side-wrapper .member-border {
   border-top: 0.5px solid #A0A4A8;
   padding-top: 13px;
+}
+
+.listing-category {
+  border: 0.5px solid #A0A4A8;
+}
+.listing-category > div {
+  border-right: 0.5px solid #A0A4A8;
+  border-bottom: 0.5px solid #A0A4A8;
+}
+.listing-category > div:nth-child(6n) {
+  border-right: 0;
+}
+.listing-category .vehicle-item-wrapper {
+  padding: 19px 32px;
 }

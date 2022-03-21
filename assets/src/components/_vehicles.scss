@@ -1,0 +1,14 @@
+
+.listing-category{
+    border: 0.5px solid #A0A4A8;
+    &> div{
+        border-right:  0.5px solid #A0A4A8;
+        border-bottom:  0.5px solid #A0A4A8;
+    }
+    &> div:nth-child(6n){
+        border-right: 0;
+    }
+    .vehicle-item-wrapper{
+        padding: 19px 32px;
+    }
+}
