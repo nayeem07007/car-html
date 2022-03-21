@@ -1,0 +1,34 @@
+footer{
+    background-color: var(--bs-primary);
+    padding: 42px 0 163px;
+    font-family: var(--footer-font-family);
+}
+@mixin font-style ($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
+.list-heading{
+    @include font-style(18px, 500);
+    margin-bottom: 30px;
+}
+.footer-list li {
+      list-style: none;
+      margin-bottom: 5px;
+    a{
+    color: var( --bs-white);
+    text-decoration: none;
+    @include font-style(16px, 300);
+    }
+}
+
+// media 
+@media (max-width: 991.98px) {
+    .h-hight{
+         margin-top: 50px;
+    }
+ }
+ @media (max-width: 575.98px) {
+    .footer-list li a{
+        @include font-style(14px, 300);
+    }
+  }
