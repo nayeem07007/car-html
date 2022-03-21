@@ -1,0 +1,27 @@
+body{
+font-family: var(--body-font-family);
+font-weight: 400;
+font-size: 16px; 
+line-height: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var( --heading-font-familly);
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87.16px;
+}
+h3{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+}
+a, input[type="button"], button {
+    font-family: var( --link-font-family);
+}
+@include media-breakpoint-down(sm) { 
+    h1{
+        font-size: 30px;
+    }
+ }
