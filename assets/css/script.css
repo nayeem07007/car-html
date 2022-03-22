@@ -141,6 +141,9 @@ a, input[type=button], button {
   margin-top: 10px;
 }
 
+.car-listing {
+  padding-right: 0;
+}
 .car-listing .list-car-wrapper {
   background: white;
   padding: 28px 28px 0 0;
@@ -168,9 +171,14 @@ a, input[type=button], button {
 .car-listing .list-car-wrapper .list-car-side-wrapper .wrapper-listing .space-icon .car-listing-icon {
   width: 25%;
 }
+.car-listing .list-car-wrapper .list-car-side-wrapper .wrapper-listing .free {
+  width: 400px;
+  margin-top: 15px;
+}
 .car-listing .list-car-wrapper .list-car-side-wrapper .member-border {
   border-top: 0.5px solid #A0A4A8;
   padding-top: 13px;
+  margin-top: -15px;
 }
 
 .vehicles-wrapper {
@@ -188,4 +196,9 @@ a, input[type=button], button {
 }
 .vehicles-wrapper .listing-category .vehicle-item-wrapper {
   padding: 19px 32px;
+}
+.vehicles-wrapper .listing-category .vehicle-item-wrapper:hover {
+  background-color: #22B573;
+  color: white;
+  transition: all linear 0.1s;
 }

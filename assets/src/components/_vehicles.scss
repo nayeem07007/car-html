@@ -10,6 +10,11 @@
             border-right: 0;
         }
         .vehicle-item-wrapper{
+            &:hover{
+                background-color: #22B573;
+                color: white;
+                transition: all linear .1s;
+            }
             padding: 19px 32px;
         }
     }

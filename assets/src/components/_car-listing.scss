@@ -1,5 +1,6 @@
 
 .car-listing{
+    padding-right: 0;
     .list-car-wrapper{
         background: white;
     padding: 28px 28px 0 0;
@@ -28,11 +29,16 @@
                             width: 25%;
                         } 
                     }
+                    .free{
+                        width: 400px;
+                        margin-top: 15px;
+                    }
                 }
                 width: 70%;
                 .member-border{
                     border-top:0.5px solid #A0A4A8 ;
                    padding-top: 13px;
+                   margin-top: -15px;
                 }
                 } 
         }
