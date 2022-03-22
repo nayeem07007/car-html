@@ -91,7 +91,7 @@ h3 {
 }
 
 h4 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
@@ -109,10 +109,6 @@ a, input[type=button], button {
     font-size: 30px;
   }
 }
-.search-form {
-  margin-bottom: 30px;
-}
-
 .search-from-select {
   font-size: 22px;
   padding: 15px 17px 17px 20px;
@@ -131,7 +127,7 @@ a, input[type=button], button {
 }
 
 .banner-content {
-  padding-top: 10px;
+  padding: 30px 0 76px;
 }
 
 .btn-car-list-banner {
@@ -145,7 +141,18 @@ a, input[type=button], button {
   margin-top: 10px;
 }
 
-.wrapper-listing h3 span {
+.car-listing .list-car-wrapper {
+  background: white;
+  padding: 28px 28px 0 0;
+}
+.car-listing .list-car-wrapper .car-image {
+  width: 30%;
+  margin-top: 30px;
+}
+.car-listing .list-car-wrapper .list-car-side-wrapper {
+  width: 70%;
+}
+.car-listing .list-car-wrapper .list-car-side-wrapper .wrapper-listing .mercedes span {
   font-weight: 400;
   font-size: 13px;
   line-height: 17.7px;
@@ -155,28 +162,30 @@ a, input[type=button], button {
   display: inline-block;
   transform: translateY(-3PX);
 }
-
-.list-car-wrapper .car-image {
-  width: 40%;
+.car-listing .list-car-wrapper .list-car-side-wrapper .wrapper-listing .space-icon {
+  width: 300px;
 }
-.list-car-wrapper .list-car-side-wrapper {
-  width: 60%;
+.car-listing .list-car-wrapper .list-car-side-wrapper .wrapper-listing .space-icon .car-listing-icon {
+  width: 25%;
 }
-.list-car-wrapper .list-car-side-wrapper .member-border {
+.car-listing .list-car-wrapper .list-car-side-wrapper .member-border {
   border-top: 0.5px solid #A0A4A8;
   padding-top: 13px;
 }
 
-.listing-category {
+.vehicles-wrapper {
+  padding: 61px 0;
+}
+.vehicles-wrapper .listing-category {
   border: 0.5px solid #A0A4A8;
 }
-.listing-category > div {
+.vehicles-wrapper .listing-category > div {
   border-right: 0.5px solid #A0A4A8;
   border-bottom: 0.5px solid #A0A4A8;
 }
-.listing-category > div:nth-child(6n) {
+.vehicles-wrapper .listing-category > div:nth-child(6n) {
   border-right: 0;
 }
-.listing-category .vehicle-item-wrapper {
+.vehicles-wrapper .listing-category .vehicle-item-wrapper {
   padding: 19px 32px;
 }
