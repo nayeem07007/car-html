@@ -1,3 +1,16 @@
-.adress-form{
-    width: 32%;
+.adress-content{
+    text-align: center;
+    .input-group{
+        width: 42%;
+        justify-content: center;
+        margin: auto;
+        border-radius: 3px;
+        .btn-outline-secondary{
+            background-color: var(--bs-yellow);
+            border: 0;
+           
+           
+        }
+       }
 }
+ 

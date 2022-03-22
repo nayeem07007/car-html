@@ -1,0 +1,24 @@
+.pagination{
+    margin-top: 60px;
+    .page-item.active{
+        a{
+            background-color: var(--bs-primary);
+            border: 0;
+
+        }
+
+    }
+    .page-item{
+        &:hover a{
+            background-color: var(--bs-primary);
+            color: var(--bs-white);
+        }
+        border: 0;
+    }
+    .page-item{
+        a{
+            color: var(--bs-black);
+            border-radius: 3px;
+        }
+    }
+}

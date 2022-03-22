@@ -141,44 +141,50 @@ a, input[type=button], button {
   margin-top: 10px;
 }
 
-.car-listing {
-  padding-right: 0;
-}
-.car-listing .list-car-wrapper {
-  background: white;
-  padding: 28px 28px 0 0;
-}
-.car-listing .list-car-wrapper .car-image {
-  width: 30%;
-  margin-top: 30px;
-}
-.car-listing .list-car-wrapper .list-car-side-wrapper {
-  width: 70%;
-}
-.car-listing .list-car-wrapper .list-car-side-wrapper .wrapper-listing .mercedes span {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 17.7px;
-  padding: 2px 12px;
-  background-color: #F1604F;
-  border-radius: 17px;
-  display: inline-block;
-  transform: translateY(-3PX);
-}
-.car-listing .list-car-wrapper .list-car-side-wrapper .wrapper-listing .space-icon {
+.list-car-wrapper .listing-featured-image {
   width: 300px;
+  max-width: 100%;
 }
-.car-listing .list-car-wrapper .list-car-side-wrapper .wrapper-listing .space-icon .car-listing-icon {
-  width: 25%;
+.list-car-wrapper .list-car-info {
+  max-width: 100%;
+  width: 69%;
 }
-.car-listing .list-car-wrapper .list-car-side-wrapper .wrapper-listing .free {
-  width: 400px;
-  margin-top: 15px;
+.list-car-wrapper .listing-feature {
+  width: 340px;
+  max-width: 100%;
 }
-.car-listing .list-car-wrapper .list-car-side-wrapper .member-border {
-  border-top: 0.5px solid #A0A4A8;
-  padding-top: 13px;
-  margin-top: -15px;
+.list-car-wrapper .listing-info > div:first-child {
+  width: 60%;
+}
+.list-car-wrapper .listing-info > div:last-child {
+  width: 40%;
+}
+.list-car-wrapper .listing-info-right p {
+  color: #25282B;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.lising-info-list {
+  columns: 2;
+}
+.lising-info-list li {
+  position: relative;
+  padding-left: 15px;
+}
+.lising-info-list li:before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--bs-primary);
+  left: 0;
+  top: 4px;
+}
+
+.lisign-shadow {
+  box-shadow: 0px 4px 7px rgba(34, 181, 115, 0.1);
 }
 
 .vehicles-wrapper {
@@ -203,6 +209,35 @@ a, input[type=button], button {
   transition: all linear 0.1s;
 }
 
-.adress-form {
-  width: 32%;
+.adress-content {
+  text-align: center;
+}
+.adress-content .input-group {
+  width: 42%;
+  justify-content: center;
+  margin: auto;
+  border-radius: 3px;
+}
+.adress-content .input-group .btn-outline-secondary {
+  background-color: var(--bs-yellow);
+  border: 0;
+}
+
+.pagination {
+  margin-top: 60px;
+}
+.pagination .page-item.active a {
+  background-color: var(--bs-primary);
+  border: 0;
+}
+.pagination .page-item {
+  border: 0;
+}
+.pagination .page-item:hover a {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+.pagination .page-item a {
+  color: var(--bs-black);
+  border-radius: 3px;
 }
