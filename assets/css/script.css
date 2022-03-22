@@ -109,6 +109,26 @@ a, input[type=button], button {
     font-size: 30px;
   }
 }
+#main-allcars-btn {
+  background-color: var(--bs-primary);
+  opacity: 0.8;
+}
+
+body {
+  background-color: #adadad;
+}
+
+.form-check-input:checked {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.reset-btn button {
+  background-color: var(--bs-primary);
+  color: var(--);
+  border-radius: 0;
+}
+
 .search-from-select {
   font-size: 22px;
   padding: 15px 17px 17px 20px;
@@ -205,4 +225,39 @@ a, input[type=button], button {
 
 .adress-form {
   width: 32%;
+}
+
+footer {
+  background-color: var(--bs-primary);
+  padding: 42px 0 163px;
+  font-family: var(--footer-font-family);
+}
+
+.list-heading {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.footer-list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.footer-list li a {
+  color: var(--bs-white);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (max-width: 991.98px) {
+  .h-hight {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer-list li a {
+    font-size: 14px;
+    font-weight: 300;
+  }
 }
