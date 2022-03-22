@@ -202,3 +202,7 @@ a, input[type=button], button {
   color: white;
   transition: all linear 0.1s;
 }
+
+.adress-form {
+  width: 32%;
+}
