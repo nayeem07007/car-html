@@ -2,14 +2,30 @@
     .listing-featured-image{
         width: 300px;
         max-width: 100%;
+        margin-top: 40px;
     }
     .list-car-info{
         max-width: 100%;
         width: 69%;
+        .mercedes{
+            span{
+                font-family: var( --heading-font-familly);
+                font-size: 13px;
+                font-weight: 400;
+                background-color: #F1604F;
+                border-radius: 17px;
+                padding:5px  12px;
+            }
+        }
     }
     .listing-feature{
         width: 340px;
         max-width: 100%;
+        span{
+            font-family: var( --body-font-family);
+            font-size: 16px;
+            font-weight: 300;
+        }
     }
     .listing-info{
         & > div:first-child{
@@ -22,8 +38,41 @@
     .listing-info-right{
         p{
             color: #25282B;
+            font-family: var( --heading-font-familly);
             font-size: 22px;
             font-weight: bold;
+            margin-bottom: 15px;
+        }
+    }
+    .wrapper-listing{
+        .car-listing-icon{
+            p{
+                font-family: var( --body-font-family);
+                font-size: 16px;
+                font-weight: 400; 
+                a{
+                    text-decoration: none;
+                    color:#25282B ;
+                }
+            }
+            .member-span{
+                font-family: var( --body-font-family);
+                font-size: 10px;
+                font-weight: 400; 
+            }
+            .contact-span{
+                font-family: var( --body-font-family);
+                font-size: 12px;
+                font-weight: 400; 
+            }
+            .icon-span{
+                font-family: var( --body-font-family);
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .icon-chat{
+                margin-top: 10px;
+            }
         }
     }
 }
@@ -31,8 +80,12 @@
 .lising-info-list{
     columns: 2;
     li{
+        font-family: var( --body-font-family);
+        font-size: 14px;
+        font-weight: 400;
         position: relative;
         padding-left: 15px;
+        margin-bottom: 15px;
         &:before{
             content: "";
             width: 9px;

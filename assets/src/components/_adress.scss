@@ -1,16 +1,60 @@
-.adress-content{
-    text-align: center;
-    .input-group{
-        width: 42%;
+.news-letter{
+    background-image: url(/assets/img/newsletter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .overlay{
+        width: 100%;
+        background-color: rgba(34, 181, 115, 0.789);
+    }
+    .adress-content{
+        width: 25%;
+        text-align: center;
+        padding: 148px 0 227px;
         justify-content: center;
         margin: auto;
-        border-radius: 3px;
-        .btn-outline-secondary{
-            background-color: var(--bs-yellow);
-            border: 0;
-           
-           
+        h4{
+            font-family: var(--link-font-family);
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
         }
-       }
-}
+        h3{
+            font-family: var(--link-font-family);
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            margin-top: -5px;
+        }
+        .input-group{
+            width: 42%;
+            justify-content: center;
+            margin: auto;
+            border-radius: 3px;
+            .btn-outline-secondary{
+                background-color: var(--bs-yellow);
+                border: 0;
+               
+               
+            }
+           }
+           .pepper-plane{
+               background-color:#FBE122;
+               border: 0;
+               padding: 8px 15px;
+           }
+           .designe-form{
+               font-family: var( --footer-font-family);
+               font-weight: 300;
+               font-size: 16px;
+               line-height: 18.78px;
+               padding: 8px 103px 8px 21px;
+               border: 0;
+        }
+           }
+    }
+   
+
+
+
  
