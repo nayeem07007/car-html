@@ -109,6 +109,57 @@ a, input[type=button], button {
     font-size: 30px;
   }
 }
+body {
+  background-color: var(--bs-ash-background);
+}
+
+.header-menu {
+  background-color: var(--bs-primary);
+}
+
+#main-allcars-btn {
+  background-color: var(--bs-primary);
+  opacity: 0.8;
+}
+
+.s-btn-shadow {
+  box-shadow: 5px 4px 5px -5px var(--bs-secondary);
+}
+
+.s-btn-title {
+  color: #25282B;
+  font-family: var(--link-font-family);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form-check-input:checked {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.color-active {
+  color: var(--bs-primary);
+}
+
+.select-prize h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #25282B;
+  margin: 0 0 19px 19px;
+}
+
+.reset-btn button {
+  background-color: var(--bs-primary);
+  border-radius: 0;
+  width: 100%;
+  border: none;
+  padding: 16px 0 17px 0;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: var(--footer-font-family);
+}
+
 .search-from-select {
   font-size: 22px;
   padding: 15px 17px 17px 20px;
@@ -327,4 +378,39 @@ a, input[type=button], button {
 .pagination .page-item a {
   color: var(--bs-black);
   border-radius: 3px;
+}
+
+footer {
+  background-color: var(--bs-primary);
+  padding: 42px 0 163px;
+  font-family: var(--footer-font-family);
+}
+
+.list-heading {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.footer-list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.footer-list li a {
+  color: var(--bs-white);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (max-width: 991.98px) {
+  .h-hight {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer-list li a {
+    font-size: 14px;
+    font-weight: 300;
+  }
 }

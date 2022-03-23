@@ -9,6 +9,9 @@
 @import "../../node_modules/bootstrap/scss/root";
 @import "./components/root";
 @import "./components/default";
+@import "./components/header";
+@import "./components/all-cars-button";
+@import "./components/cars-section";
 @import "./components/ssearch-form";
 @import "./components/banner";
 @import "./components/button";
@@ -16,4 +19,4 @@
 @import "./components/vehicles";
 @import "./components/adress";
 @import "./components/pagination";
-
+@import "./components/footer";
