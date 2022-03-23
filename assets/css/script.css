@@ -109,13 +109,28 @@ a, input[type=button], button {
     font-size: 30px;
   }
 }
+body {
+  background-color: var(--bs-ash-background);
+}
+
+.header-menu {
+  background-color: var(--bs-primary);
+}
+
 #main-allcars-btn {
   background-color: var(--bs-primary);
   opacity: 0.8;
 }
 
-body {
-  background-color: #adadad;
+.s-btn-shadow {
+  box-shadow: 5px 4px 5px -5px var(--bs-secondary);
+}
+
+.s-btn-title {
+  color: #25282B;
+  font-family: var(--link-font-family);
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .form-check-input:checked {
@@ -123,10 +138,26 @@ body {
   border-color: var(--bs-primary);
 }
 
+.color-active {
+  color: var(--bs-primary);
+}
+
+.select-prize h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #25282B;
+  margin: 0 0 19px 19px;
+}
+
 .reset-btn button {
   background-color: var(--bs-primary);
-  color: var(--);
   border-radius: 0;
+  width: 100%;
+  border: none;
+  padding: 16px 0 17px 0;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: var(--footer-font-family);
 }
 
 .search-from-select {
